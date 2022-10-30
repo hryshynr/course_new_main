@@ -25,4 +25,3 @@ window.byeSpeaker = byeSpeaker;
 // 'byeSpeaker' on the global scope as well.
 // xxxx.xxxx = byeSpeaker;
 })(window);
-console.log("test sbye");
