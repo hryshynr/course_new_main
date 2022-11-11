@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: Monaco,sans-serif;
+}
+
+p {position: absolute;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  text-align: center;
+  top:-18px;  
+  right:0px;
+  background-color:#DFFF00;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 65px;
+padding-right: 65px;}
+#id1 {background-color:#FFBF00}
+#id2 {background-color:#A93226; color:white;}
+#id3 {background-color:#2874A6;}
+
+div {font-family: Trebuchet MS, sans-serif;}
+p {font-family: Lucida Console,sans-serif;
+font-weight: bold;}
+
+
+/* Simple Responsive Framework. */
+
+/********** Large devices only **********/
+@media (min-width: 992px)  { .main {
+  position: relative;
+  border: 2px solid black;
+  background-color: #C0C0C0;
+  padding: 45px;
+  float: left;
+  margin: 5px;
+  width: calc(33.3% - 10px);
+ } }
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) { .main-med{
+  border: 2px solid black;
+  padding: 45px;
+  position: relative;
+  background-color: #C0C0C0;
+  float: left;
+  margin: 5px;
+  width: calc(49% - 5px);
+
+} .main-med-3{border: 2px solid black;
+  position: relative;
+  background-color: #C0C0C0;
+  padding: 45px;
+  margin: 5px;
+  float:left;
+  width: calc(98%);}
+}
+@media (max-width: 767px)  { .main-small {
+  position: relative;
+  border: 2px solid black;
+  padding: 45px;
+  background-color: #C0C0C0;
+  margin: 7px;
+  width: calc(100%-25px);
+ } }
